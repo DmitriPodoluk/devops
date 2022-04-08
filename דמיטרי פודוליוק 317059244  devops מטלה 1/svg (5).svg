@@ -1,0 +1,21 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_2" height="229" width="359" y="133" x="198" stroke="#000" fill="none"/>
+  <rect id="svg_3" height="0" width="1" y="341" x="175" stroke="#000" fill="none"/>
+  <rect id="svg_4" height="146" width="112" y="194" x="212" stroke="#000" fill="none"/>
+  <rect stroke="#000" id="svg_5" height="144" width="98" y="197" x="333" fill="none"/>
+  <rect stroke="#000" id="svg_6" height="142.99999" width="95" y="198" x="445" fill="none"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" stroke-width="0" id="svg_7" y="113" x="216" stroke="#000" fill="#000000">us-east2</text>
+  <text transform="matrix(0.779771 0 0 0.811396 49.111 41.3046)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" stroke-width="0" id="svg_9" y="214" x="221.71757" fill="#000000">web subnet</text>
+  <text transform="matrix(0.640919 0 0 1.0818 80.7025 -29.4769)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="'Asap'" font-size="24" id="svg_12" y="266.78976" x="216.03125" fill="none" font-weight="bold">192.168.7.0\24</text>
+  <text transform="matrix(0.54725 0 0 1.02366 214.915 -25.7736)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="'Asap'" font-size="24" id="svg_13" y="277.88235" x="220.71203" fill="none" font-weight="bold">192.168.7.32\27</text>
+  <text transform="matrix(0.779771 0 0 0.811396 49.111 41.3046)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" stroke-width="0" id="svg_14" y="218.92978" x="370.4792" fill="#000000">app subnet</text>
+  <text transform="matrix(0.536502 0 0 0.917368 328.218 5.06571)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="'Asap'" font-size="24" id="svg_15" y="277.88235" x="220.71203" fill="none" font-weight="bold">192.168.7.64\28</text>
+  <text transform="matrix(0.779771 0 0 0.811396 49.111 41.3046)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" stroke-width="0" id="svg_16" y="218.92978" x="370.4792" fill="#000000">app subnet</text>
+  <text transform="matrix(0.779771 0 0 0.811396 49.111 41.3046)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" stroke-width="0" id="svg_17" y="221.39466" x="511.54626" fill="#000000">db subnet</text>
+  <text transform="matrix(0.779771 0 0 0.811396 49.111 41.3046)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" stroke-width="0" id="svg_18" y="142.51826" x="233.25942" fill="#000000">vpc dima</text>
+  <text transform="matrix(0.640919 0 0 1.0818 80.7025 -29.4769)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="'Asap'" font-size="24" id="svg_8" y="177.12439" x="351.77383" fill="none" font-weight="bold">192.168.7.0\27</text>
+ </g>
+
+</svg>
