@@ -7,14 +7,15 @@ terraform {
   }
 }
 
+
 # Configure the AWS Provider
 provider "aws" {
-  region = "us-east-2"
+  region = "ca-central-1"
 }
 
 # Create a VPC
 resource "aws_vpc" "dima" {
-  cidr_block = "192.168.7.0/24"
+  cidr_block = "192.168.5.0/24"
   tags = {
     "Name" = "dima-vpc"
   }
@@ -23,7 +24,7 @@ resource "aws_vpc" "dima" {
 ###### subnet_web #####
 resource "aws_subnet" "subnet_web" {
   vpc_id     = aws_vpc.dima.id
-  cidr_block = "192.168.7.0/27"
+  cidr_block = "192.168.5.0/27"
 
   tags = {
     "Name" = "subnet_web1"
@@ -33,7 +34,7 @@ resource "aws_subnet" "subnet_web" {
   ###### subnet_app #####
 resource "aws_subnet" "subnet_app" {
   vpc_id     = aws_vpc.dima.id
-  cidr_block = "192.168.7.32/27"
+  cidr_block = "192.168.5.32/27"
 
   tags = {
     "Name" = "subnet_app1"
@@ -43,7 +44,7 @@ resource "aws_subnet" "subnet_app" {
   ###### subnet_db #####
 resource "aws_subnet" "subnet_db" {
   vpc_id     = aws_vpc.dima.id
-  cidr_block = "192.168.7.64/28"
+  cidr_block = "192.168.5.64/28"
 
   tags = {
     "Name" = "subnet_db1"
